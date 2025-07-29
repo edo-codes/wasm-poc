@@ -4,6 +4,8 @@
 
 pkgs.mkShell {
   packages = with pkgs; [
+    gnumake
+
     # Rust
     cargo
     rustc
